@@ -16,7 +16,7 @@ public class SearchInRotatedArray {
         while(start<=end){
             int mid = (start+end)/2;
             if(key==arr[mid]){
-                System.err.println("Target is found at index : "+mid);
+                System.out.println("Target is found at index : "+mid);
                 break;
             }
             if(key < arr[mid]){
