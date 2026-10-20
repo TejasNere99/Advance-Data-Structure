@@ -1,5 +1,12 @@
 import java.util.*;
 
+// test case : arr = 2,3,6,7
+// target  : 7
+// output : [2,2,3]
+// [2,3,2]
+// [3,2,2]
+// [7]
+
 public class CombinationSum {
     public static void find(int arr[],int target,ArrayList<ArrayList<Integer>> ans,ArrayList<Integer> list){
         if(target==0){
